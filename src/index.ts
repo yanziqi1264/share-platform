@@ -24,7 +24,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const userInfo = currentUsr.toJSON();
     console.log('userInfo', userInfo);
     app.commands.addCommand(commandID, {
-      label: '分享到素质平台',
+      label: '分享到数字平台',
       isEnabled: () => true,
       isVisible: () => true,
       iconClass: 'some-css-icon-class',
@@ -55,15 +55,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
                 }
               })
               .catch(reason => {
-                console.error(
-                  `The share-file-serve server extension appears to be missing.\n${reason}`
-                );
+                showErrorMessage('提示', reason);
               });
           })
           .catch(reason => {
-            console.error(
-              `The share-file-serve server extension appears to be missing.\n${reason}`
-            );
+            showErrorMessage('提示', reason);
           });
       }
     });

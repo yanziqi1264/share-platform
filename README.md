@@ -1,6 +1,6 @@
 # share-platform
 
-[![Github Actions Status](https://github.com/github_username/share-platform/workflows/Build/badge.svg)](https://github.com/github_username/share-platform/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/github_username/share-platform/main?urlpath=lab)
+[![Github Actions Status](https://github.com/yanziqi1264/share-platform/workflows/Build/badge.svg)](https://github.com/yanziqi1264/share-platform/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yanziqi1264/share-platform/main?urlpath=lab)
 A JupyterLab extension.
 
 This extension is composed of a Python package named `share-platform`

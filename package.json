@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/github_username/share-platform",
+  "homepage": "https://github.com/yanziqi1264/share-platform",
   "bugs": {
-    "url": "https://github.com/github_username/share-platform/issues"
+    "url": "https://github.com/yanziqi1264/share-platform/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github_username/share-platform.git"
+    "url": "https://github.com/yanziqi1264/share-platform.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -62,7 +62,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@jupyterlab/builder": "^4.0.0-alpha.11",
+    "@jupyterlab/builder": "^3.1.0",
     "@jupyterlab/testutils": "^3.0.0",
     "@types/jest": "^26.0.0",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
